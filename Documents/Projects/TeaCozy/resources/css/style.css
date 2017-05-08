@@ -1,0 +1,91 @@
+body {
+
+
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+header {
+   display: flex;
+   position: fixed;
+   align-items: center;
+   justify-content: space-between;
+   z-index: 20;
+   width: 100%;
+   height: 69px;
+   background-color: black;
+   border-bottom: 1px solid seashell;
+   flex-direction: row;
+   align-content: center;
+
+}
+#logo {
+   display: inline-block;
+   width: 125px;
+   height: 30px;
+   margin: 10px;
+
+
+ }
+nav header {
+  display: inline-flex;
+  align-items: center;
+  margin: 10px;
+  justify-content: flex-end;
+}
+a {
+  margin: 10px;
+  justify-content: space-around;
+  color: seashell;
+  text-decoration: underline;
+}
+.container {
+
+  position: relative;
+  top: 70px;
+  padding: 20px;
+}
+.container .mission {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  width: 1200px;
+  height: 700px;
+  background-image: url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources/img-mission-background.jpg");
+  align-items: center;
+}
+#title {
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  background-color: black;
+ }
+
+ .tea {
+   display: inline-block;
+ }
+ .images {
+   height: 200px;
+   width: 300px;
+ }
+ #berry {
+   display: inline-block;
+   height: 200px;
+   width: 300px;
+   background-image: url ("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources/img-berryblitz.jpg");
+ }
+#rum {
+  background-image: url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources./resources/img-spiced-rum.jpg");
+}
+#donut {
+  background-image: url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources./resources/img-donut.jpg");
+}
+#ave {
+  background-image: url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources./resources/img-myrtle-ave.jpg">);
+}
+#bedford {
+  background-image: url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy./resources/img-bedford-bizarre.jpg">);
+}
