@@ -1,12 +1,10 @@
 body {
-
-
-  background-color: black;
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  opacity: 0.9;
-  text-align: center;
+   background-color: black;
+   font-family: Helvetica;
+   font-size: 22px;
+   color: seashell;
+   opacity: 0.9;
+   text-align: center;
 }
 header {
    display: flex;
@@ -64,28 +62,40 @@ a {
   background-color: black;
  }
 
- .tea {
-   display: inline-block;
+.tea {
+   display: block;
+   width: 1000px;
  }
- .images {
+.images {
    height: 200px;
    width: 300px;
  }
- #berry {
+#berry {
    display: inline-block;
-   height: 200px;
-   width: 300px;
-   background-image: url ("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources/img-berryblitz.jpg");
+   background-image: url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources/img-berryblitz.jpg");
  }
 #rum {
-  background-image: url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources./resources/img-spiced-rum.jpg");
+  background-image:
+   url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources/img-spiced-rum.jpg");
 }
 #donut {
-  background-image: url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources./resources/img-donut.jpg");
+  background-image: url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources/img-donut.jpg");
 }
 #ave {
-  background-image: url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources./resources/img-myrtle-ave.jpg">);
+  background-image: url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources/img-myrtle-ave.jpg");
 }
 #bedford {
-  background-image: url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy./resources/img-bedford-bizarre.jpg">);
+  background-image: url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources/img-bedford-bizarre.jpg");
+}
+.location {
+  width: 1200px;
+  height: 500px;
+}
+.adresses {
+  height: 300px;
+  width: 300px;
+}
+.contact{
+  height: 200px;
+
 }

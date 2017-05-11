@@ -1,0 +1,110 @@
+body, html{
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  background: black;
+  color: seashell;
+  height: 49px;
+  border-bottom: 1px solid seashell;
+  padding: 10px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+header img{
+  height: 50px
+}
+header ul li{
+  display: inline;
+  padding: 25px;
+}
+header a{
+  color: seashell;
+}
+#mission{
+  background-image: url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources/img-mission-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 1200px;
+  padding-top: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.statement{
+ background-color: black;
+ flex-grow: 1;
+}
+#store{
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#store .item img{
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+#store .item h4{
+  font-weight: bold;
+}
+#locations {
+  background-image: url("file:///Users/LanaAlexis/Documents/Projects/TeaCozy/resources/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+#locations #address {
+  justify-content: center;
+  align-items: flex-start;
+}
+#locations #address h2 {
+  margin-bottom: 15px;
+}
+#locations .address{
+  height: 300px;
+  width: 300px;
+  margin: 15px 20px;
+  background-color: black;
+  opacity: 1;
+
+
+}
+#locations #address1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+#contact{
+  height: 200px;
+  align-self: baseline;
+}
+footer {
+  text-align: left;
+  padding: 20px;
+}
+#mission, #store, #locations{
+  margin: 0px auto;
+}
